@@ -1,0 +1,100 @@
+/* ====== General Styles ====== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+  color: #000;  /* Black text */
+
+  /* Pink & Blue gradient background */
+  background: linear-gradient(135deg, #ff6ec4, #7873f5);
+  min-height: 100vh;
+}
+
+/* ====== Header ====== */
+header {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white; /* Keep header white for contrast */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+header p {
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #ffd1f9;
+}
+
+/* ====== Section Cards ====== */
+.card {
+  max-width: 900px;
+  margin: 40px auto;
+  background: rgba(255, 255, 255, 0.85); /* Light bg for black text */
+  padding: 30px;
+  border-radius: 14px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s, box-shadow 0.3s;
+  color: #000; /* Black text inside cards */
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* ====== Headings ====== */
+h2 {
+  color: #333;  /* Dark grey (near black) */
+  border-bottom: 2px solid #ff6ec4;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+}
+
+/* ====== Lists ====== */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: rgba(255, 255, 255, 0.6);
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 8px;
+  color: #000; /* Black text */
+  transition: background 0.3s;
+}
+
+ul li:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* ====== Links ====== */
+a {
+  color: #0077cc; /* Professional blue */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ff3399; /* Pink hover */
+  text-decoration: underline;
+}
+
+/* ====== Footer ====== */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #6a11cb;
+  color: #fff;
+  font-size: 0.9em;
+  margin-top: 40px;
+}
